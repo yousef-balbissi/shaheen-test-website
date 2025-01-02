@@ -60,123 +60,6 @@ nav {
   margin: 3px 50px;
   background-color: white;
 }
-@media(max-width: 768px){
-  .main-nav{  
-  display: none;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    padding: 10px 0;
-    z-index: 1;  
-  }  
-  .main-nav li {  
-  margin: 10px 0;  
-  }  
-  .hamburger {  
-  display: flex;  
-  }  
-  .main-nav.active {  
-  display: flex;  
-  }
-  .logo img {
-  width: 50px;
-  height: auto;
-    } 
-  }
-.first-badge {
-  display: inline-block;
-  width: 50px;
-  position: absolute; 
-  top: 80%;
-  left: 20%; 
-  z-index: 3;
-  transform: translateY(-50%);
-}
-.second-badge{
-  display: inline-block;
-  position: absolute; 
-  top: 80%; 
-  left: 32%;
-  z-index: 3;
- transform: translateY(-50%);
-}
-@media (max-width: 768px)
-{ 
-  .slideshow-container {
-    height: 50vh; }
-   /* .menu-icon {
-    display: block; 
-    position: absolute;
-    right: 20px; 
-    top: 25px; 
-    cursor: pointer;
-} */
-  nav{
-    flex-wrap: wrap;
-  }
-  /* .menu-icon{
-    display: flex;
-    flex-wrap: wrap;
-  } */
-  .Shaheen_logo img {
-    width: 100px;
-    height: auto;
-    margin-left: 20px;
-    margin-right: auto;
-  }
-  .main-nav{
-    display: none;
-    flex-basis: 100%;
-  }
-  .main-nav li{
-    flex-basis: 100%;
-  }
-  .main-nav a{
-    text-align: center;
-    font-size: 28px;
-  }
-  .Headline{
-    font-size: 10px;
-  }
-  .Subheadline{
-    font-size: 5px;
-  }
-  .badges-container {
-    justify-content: space-between; 
-    gap: 30px; 
-  }
-  .second-badge{
-    position: relative;
-    left: 50%;
-    bottom: -450px;
-  }
-  }
-  /* @media (max-width: 1318px){
-    .second-badge{
-      position: relative;
-      left: -13%;
-      bottom: -453px;
-    }
-  } */
-  /* @media (max-width: 480px) {
-    .Headline {
-      font-size: 14px;
-    }
-    .first-badge,
-  .second-badge {
-    display: block; 
-    margin: 10px auto;
-  }
-  .first-badge img,
-  .second-badge img {
-    width: 100px;
-    height: auto; 
-  }
-  } */
 .main-nav a:hover {
   color: #FFD700;
 }
@@ -261,6 +144,117 @@ nav {
   30% { opacity: 0; }
   100% { opacity: 0; }
 }
+@media(max-width: 768px){
+  .main-nav{  
+  display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px 0;
+    z-index: 1;  
+  }  
+  .main-nav li {  
+  margin: 10px 0;  
+  }  
+  .hamburger {  
+  display: flex;  
+  }  
+  .main-nav.active {  
+  display: flex;  
+  }
+  .logo img {
+  width: 50px;
+  height: auto;
+    } 
+  }
+.first-badge {
+  display: inline-block;
+  width: 50px;
+  position: absolute; 
+  top: 80%;
+  left: 20%; 
+  z-index: 3;
+  transform: translateY(-50%);
+}
+.second-badge{
+  display: inline-block;
+  position: absolute; 
+  top: 80%; 
+  left: 32%;
+  z-index: 3;
+ transform: translateY(-50%);
+}
+@media (max-width: 768px)
+{
+  nav{
+    flex-wrap: wrap;
+  }
+  .Shaheen_logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .main-nav{
+    display: none;
+    flex-basis: 100%;
+  }
+  .main-nav li{
+    flex-basis: 100%;
+  }
+  .main-nav a{
+    text-align: center;
+    font-size: 28px;
+  }
+  .Headline{
+    font-size: 25px;
+  }
+  .features{
+    font-size: 20px;
+  }
+  .CTA{
+    font-size: 16px;
+    left: 200px;
+  }
+  .first-badge{
+    position: relative;
+    bottom: -432px;
+    margin-right: 40px;
+  }
+  .second-badge{
+    position: relative;
+    bottom: -432px;
+  }
+  }
+  @media(max-width: 460px){
+    .slideshow-container{
+      background-size: contain;
+      width: 100%;
+    }
+    .Headline{
+      font-size: 20px;
+      left: 40px;
+    }
+    .CTA{
+      font-size: 12px;
+      left: 130px;
+    }
+    .first-badge{
+      position: relative;
+      left: 50px;
+      bottom: -470px;
+      margin-right: 70px;
+    }
+    .second-badge{
+      position: relative;
+      bottom: -470px;
+      left: 90px;
+    }
+  }
 /* second section */
 .second-section{
   overflow: hidden;
@@ -317,7 +311,6 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 .card:hover h3,
 .card:hover p {
@@ -341,20 +334,26 @@ nav {
   background-image: url('https://i.ibb.co/m9rymtY/pexels-ekrulila-28026949.jpg');
 }
 @media (max-width: 768px) {
+  .second-section{
+    height: 1150px;
+    position: relative;
+    margin-top: 70px;
+  }
   .container {
     flex-direction: column; 
     align-items: center;
     gap: 30px;
   }
   .card {
-    width: 250px;
-    height: 120px; 
+    width: 300px;
+    height: 300px; 
     padding: 15px;
   }
   .card h3 {
     font-size: 14px;
     margin-top: 20px;
   }
+
   .card:hover {
     transform: scale(1); 
   }
@@ -362,20 +361,10 @@ nav {
     font-size: 12px;
   }
 }
-@media (max-width: 480px) {
-  .container {
-    gap: 20px; 
-  }
-  .card {
-    padding: 10px;
-  }
-  .card h3 {
-    font-size: 12px; 
-    margin-top: 10px;
-  }
-  .card p {
-    font-size: 10px; 
-  }
+@media (max-width: 460px) {
+  .second-section{
+    top: 5px;
+  }  
 }
 /* third section */
 .third-section{
@@ -401,6 +390,7 @@ nav {
 .Marketplace-images{
   position: relative;
   top: -70px;
+  left: 90px;
 }
 .Shopping-image img{
   border-radius: 10px;
@@ -526,16 +516,82 @@ nav {
   .travel-image,
   .Insurance-image {
     flex-basis: 70%;
-    /* margin: 5px; */
   }
 }
-@media (max-width: 480px) {
-  .Shopping-image,
-  .travel-image,
-  .Insurance-image {
-    flex-basis: 100%;
-    margin: 10px 0;
+@media (max-width: 768px){
+  .third-section{
+    top: 150px;
+    height: 1100px;
+    width: auto;
   }
+ .Shopping-image{
+  text-align: center;
+  position: relative;
+  top: 120px;
+  left: 125px;
+ }
+ .Shopping-background{
+  left: 120px;
+ }
+ .travel-image{
+  text-align: center;
+  position: relative;
+  top: -150px;
+  left: 305px;
+ }
+ .travel-background{
+  left: 120px;
+ }
+ .Insurance-image{
+  text-align: center;
+  position: relative;
+  top: -340px;
+  left: 480px;
+ }
+ .Insurance-background{
+  left: 120px;
+ }
+}
+@media (max-width: 460px) {
+ .third-section{
+  top: 50px;
+ }
+ .super-app{
+  font-size: 15px;
+ }
+ .mark{
+  font-size: 10px;
+ }
+ .subheading{
+  font-size: 10px;
+  margin-right:40px ;
+ }
+ .Shopping-image img,
+ .travel-image img,
+ .Insurance-image img{
+  width: 75px;
+  height: auto;
+ }
+ .travel-image{
+  left: 300px;
+  top: -45px;
+ }
+ .Insurance-image{
+  top: -150px;
+  left: 400px;
+ }
+ .travel-background,
+ .Shopping-background,
+ .Insurance-background{
+  top: 10px;       
+  width: 72px;
+  height: 110px;
+  left: 95px;
+ }
+ .Shopping-image{
+  top: 80px;
+  left: 195px ;
+ } 
 }
 /* 4th section */
 .section-nb4{
@@ -642,6 +698,109 @@ nav {
   font-size: 20px;
   color: #F5F5F5;
 }
+@media (max-width: 768px){
+  .section-nb4{
+    width: 100%;
+    overflow: hidden;
+  }
+  .first-image,
+  .second-image,
+  .third-image{
+    position: relative;
+    left: -100px;
+  }
+  .first-image img,
+  .third-image img{
+    width: 150px;
+    
+  }
+  .second-image img{
+    width: 150px;
+    height: 220px;
+  }
+  .first-system{
+    position: relative;
+    top: -100px;
+    left: 250px;
+    width: 250px;
+    height: auto;
+    /* font-size: 20px; */
+  }
+   .Interoperability{
+    font-size: 13px;
+   }
+   .payment-rails-p{
+    font-size: 10px;
+   }
+   .second-system{
+    position: relative;
+    top: -180px;
+    left: 250px;
+    width: 250px;
+    height: auto;
+  }
+  .P2P{
+    font-size: 13px;
+  }
+  .Send-receive{
+    font-size: 10px;
+  }
+  .third-system{
+    position: relative;
+    top: -250px;
+    left: 250px;
+    width: 250px;
+    height: auto;
+  }
+  .mobile{
+    font-size: 13px;
+  }
+  .anytime{
+    font-size: 10px;
+  }
+}
+@media(max-width :460px){
+  .section-nb4{
+    top: -750px;
+  }
+  .first-image img,
+  .third-image img{
+    width: 100px;
+  }
+  .first-image,
+  .second-image,
+  .third-image{
+    left: -120px;
+    margin-top: 10px;
+  }
+  .second-image img{
+    width: 100px;
+    height: 130px;
+  }
+  .second-image{
+    margin-top: 25px;
+  }
+  .first-system,
+  .second-system,
+  .third-system{
+    /* top: -30px; */
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    left: 150px;
+  }
+  .Interoperability,
+  .P2P,
+  .mobile{
+    font-size: 7px;
+  }
+  .payment-rails-p,
+  .Send-receive,
+  .anytime{
+    line-height: 1.2 !important;
+    font-size: 5px;
+  }   
+}
 /* section-nb7 */
 .section-nb7{
   position: relative;
@@ -743,7 +902,6 @@ nav {
 }
 .UK{
   position: relative;
-  /* top: 180px; */
 }
 .Australia{
   position: relative;
@@ -759,6 +917,132 @@ nav {
   position: relative;
   top: 250px;
   right: 300px;
+}
+@media (max-width: 768px){
+  .section-nb7{
+    height: 800px;
+  }
+  .Partnerships{
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+  }
+  .global{
+    font-size: 10px;
+    position: relative;
+    top: 45px;
+    left: -120px;
+  }
+  .UK{
+    position: relative;
+    left: -90px;
+  }
+  .Turkey{
+    position: relative;
+    left: -100px;
+    top: 150px;
+  }
+  .USA{
+    position: relative;
+    left: -50px;
+  }
+  .Australia{
+    position: relative;
+    left: -70px;
+    top: 40px;
+  }
+  .UAE{
+    position: relative;
+    left: -150px;
+    top: 60px;
+  }
+  .India{
+    position: relative;
+    left: -10px;
+    top: 20px;
+  }
+  .Europe{
+    position: relative;
+    top: -80px;
+  }
+  .UK img,
+  .Turkey img,
+  .Australia img,
+  .Europe img,
+  .UAE img,
+  .USA img{
+    width: 34px;
+    height: auto;
+  }
+  .India img{
+    width: 55px;
+    height: auto;
+  }
+}
+@media(max-width: 460px)
+{
+  .section-nb7{
+    top: -850px;
+    height: 250px;
+  }
+  .global{
+    top: -30px;
+    font-size: 7px;
+    left: -115px;
+  }
+  .Partnerships{
+    top: -50px;
+    font-size: 10px;
+    left: -20px;
+  }
+  .UK{
+    position: relative;
+    /* top: 50px; */
+    left: -90px;
+  }
+  .Turkey{
+    position: relative;
+    left: -100px;
+    top: 90px;
+  }
+  .USA{
+    position: relative;
+    left: -50px;
+    top: 150px;
+  }
+  .Australia{
+    position: relative;
+    left: -70px;
+    top: 40px;
+  }
+  .UAE{
+    position: relative;
+    left: -120px;
+    top: 100px;
+  }
+  .India{
+    position: relative;
+    left: -30px;
+    top: 20px;
+  }
+  .Europe{
+    position: relative;
+    top: -80px;
+    left: -40px;
+  }
+  .UK img,
+  .Turkey img,
+  .Australia img,
+  .Europe img,
+  .UAE img,
+  .USA img{
+    width: 21px;
+    height: auto;
+  }
+  .India img{
+    width: 30px;
+    height: auto;
+  }
 }
 /* section-nb8 */
 .section-nb8{
@@ -787,7 +1071,7 @@ nav {
   color:#F5F5F5;
   text-align: center;
   position: relative;
-  left: -100px;
+  left: -70px;
 }
 .Choosing-Shaheen-text{
   color: #003366;
@@ -840,9 +1124,79 @@ nav {
 .Affordable:hover,
 .Transformative:hover, 
 .Inclusive:hover {
-  background-color:#008080; /* Change color on hover */
-  transform: scale(1.08); /* Slightly enlarge on hover */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  background-color:#008080;
+  transform: scale(1.08); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+@media (max-width: 768px){
+  .section-nb8{
+    overflow: hidden;
+    top: -850px;
+  }
+  .Choosing-Shaheen-text{
+    top: 5px;
+    font-size: 20px;
+    left: 20px;
+  }
+  .Accessible,
+  .Inclusive,
+  .Transformative {
+    width: 100px;
+    height: 110px;
+    position: relative;
+  }
+  .Affordable{
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  .Accessible,
+  .Inclusive{
+    left: 200px;
+  }
+  .Affordable{
+    top: -140px;
+  }  
+  .Affordable,
+  .Transformative{
+    left: 350px;
+  }
+  .Inclusive{
+    top: -100px;
+  }
+  .Transformative{
+    top:-250px;
+  }
+  .Accessible-heading,
+  .Affordable-heading,
+  .Inclusive-heading,
+  .Transformative-heading{
+    font-size: 15px;
+  }
+  .Accessible-paragraph,
+  .Affordable-paragraph,
+  .Inclusive-paragraph,
+  .Transformative-paragraph{
+    font-size: 10px;
+  }
+}
+@media(max-width: 460px){
+  .section-nb8{
+    top: -800px;
+  }
+  .Choosing-Shaheen-text{
+    font-size: 15px;
+    left: -10px;
+  }
+  .list{
+    left: -150px;
+  }
+  .Inclusive{
+    top: -130px;
+  }
+  .Transformative{
+    top: -280px;
+  }
 }
 /* last section */
 .last-section{
@@ -907,8 +1261,6 @@ nav {
   overflow: hidden;
   width: 100%;
   height: 500px;
-  /* background-image: url('https://i.ibb.co/QYS87xm/Frame-1.png');  */
-  /* background-color: #003366; */
   background-size: cover; 
   background-position: center center; 
   display: flex; 
@@ -922,7 +1274,6 @@ nav {
   left: 0;
   right: 0;
   bottom: 32%;
-  /* background-color: #003366; */
   opacity: 0.3;
   height: 500px;
   pointer-events: none;
@@ -948,7 +1299,6 @@ nav {
 }
 .shaheen-shaheen{
   text-align: left;
-  /* width: 950px; */
   height: auto;
   position: relative;
   left: -150px;
@@ -957,4 +1307,72 @@ nav {
   border-radius: 10px;
   width: 350px;
   height:auto;
+}
+@media (max-width: 768px){
+  .last-section{
+    top: -1100px;
+  }
+  .shaheen-shaheen img{
+    width: 200px;
+    height: auto;
+  }
+  .shaheen-shaheen{
+    position: relative;
+    left:150px;
+  }
+  .quesion-nb2{
+    font-size: 30px;
+  }
+  .p1{
+    font-size: 15px;
+    left: -30px;
+    width: 300px;
+    height: auto;
+  }
+  .p2{
+    font-size: 15px;
+    left: -30px;
+    width: 300px;
+    height: auto;
+  }
+  .p3{
+    font-size: 15px;
+    left: -30px;
+    height: auto;
+  }
+  .first-step,
+  .second-step,
+  .third-step{
+    font-size: 15px;
+  }
+}
+@media(max-width: 460px){
+  .last-section{
+    overflow-y: hidden;
+  }
+  .quesion-nb2{
+    font-size: 20px;
+    left: 20px;
+  }
+  .shaheen-shaheen img{
+    width: 150px;
+    /* left: 50px; */
+  }
+  .shaheen-shaheen{
+    left: 200px;
+  }
+  .p1,
+  .p2,
+  .p3{
+    font-size: 7px;
+    left: 15px;
+  }
+  .first-step,
+  .second-step,
+  .third-step{
+    font-size: 10px;
+  }
+  .third-step{
+    top: -20px;
+  }
 }
